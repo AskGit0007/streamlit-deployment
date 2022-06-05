@@ -1,6 +1,6 @@
 sudo apt update 
 sudo apt upgrade
-gcloud source repos clone abstractive-summarization --project=soy-zone-348715
+gcloud source repos clone github_askgit0007_streamlit-deployment --project=soy-zone-348715
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev -y
 sudo apt-get install python3-venv -y
 python3 -m venv env
