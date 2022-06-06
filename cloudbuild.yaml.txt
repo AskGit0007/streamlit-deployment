@@ -1,0 +1,5 @@
+steps:
+-name: 'gcr.io/cloud-builders/docker'
+args: ['build','gcr.io/soy-zone-348715/streamlit-deployment1','.']
+-name: 'gcr.io/cloud-builders/docker'
+args: ['push','gcr.io/soy-zone-348715/streamlit-deployment1','.']
